@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "description": "A classic novel of the Jazz Age...",
+        "reviews": []
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "description": "Dystopian social science fiction novel...",
+        "reviews": []
+    }
+]
