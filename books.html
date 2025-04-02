@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Books | Bookhaven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Bookhaven</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="books.html">Browse</a>
+      <a href="#">Genres</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" class="btn">Sign Up</a>
+    </div>
+  </nav>
+
+  <section class="search-container">
+    <div class="search-bar">
+      <input type="text" placeholder="Search by title, author, or genre...">
+      <button>Search</button>
+    </div>
+  </section>
+
+  <section class="book-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+      <h2 class="section-title">All Books</h2>
+      <div>
+        <select style="padding: 0.5rem; border-radius: 5px; border: 1px solid #ddd;">
+          <option>Sort by: Popularity</option>
+          <option>Sort by: Newest</option>
+          <option>Sort by: Price (Low to High)</option>
+          <option>Sort by: Price (High to Low)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="book-grid">
+      <!-- Book cards will be loaded here by JavaScript -->
+    </div>
+  </section>
+
+  <script src="books.js"></script>
+</body>
+</html>
